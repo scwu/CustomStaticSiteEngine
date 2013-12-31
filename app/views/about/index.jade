@@ -1,0 +1,14 @@
+extends ../layouts/default
+
+block main
+  h2= title
+
+block content
+  ol
+    li
+      a(href='/about') Home
+    li
+      a(href='/about/new') Edit new About
+
+  div(ng-view)
+  

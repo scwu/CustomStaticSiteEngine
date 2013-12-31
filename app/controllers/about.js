@@ -33,7 +33,7 @@ exports.create = function (req,res) {
     address: req.body.address,
     facebook: req.body.facebook,
     twitter: req.body.twitter,
-    blog : req.bodoy.blog,
+    blog : req.body.blog,
     linkedin: req.body.linkedin
   }, function (err, small) {
     if (err) return handleError(err);
